@@ -1,0 +1,27 @@
+{
+  "name": "jquery.airpointselector",
+  "description": "a jquery plugin for selecting airline names",
+  "main": [
+    "./dist/js/jquery.airpointselector.js",
+    "./dist/css/jquery.airpointselector.css"
+  ],
+  "authors": [
+    "radishj <423261989@qq.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "airpoint",
+    "airpointselector"
+  ],
+  "homepage": "https://github.com/RadishJ/jquery.airpointselector",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.7.0"
+  }
+}

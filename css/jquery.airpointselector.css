@@ -1,0 +1,48 @@
+.airpointselector-layout {
+    font-family: 'Microsoft YaHei', 'Open Sans', Helvetica, Arial, sans-serif;
+    position: absolute;
+    z-index: 100;
+    left: -1px;
+    display: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 220px;
+    border: 1px solid #e8e9e8;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 5px #777;
+    -moz-box-shadow: 0 0 5px #777;
+    box-shadow: 0 0 5px #777;
+}
+
+.airpointselector-layout table {
+    width: 100% !important;
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    cursor: default !important;
+    background: none repeat scroll 0 0 #fff !important;
+}
+
+.airpointselector-layout table,
+.airpointselector-layout tr,
+.airpointselector-layout td {
+    padding: 2px !important;
+    border: 0 !important;
+}
+
+.airpointselector-layout table tr {
+    background: none repeat scroll 0 0 #fff;
+}
+
+.airpointselector-layout table .odd {
+    background: none repeat scroll 0 0 #e8f3fd;
+}
+
+.airpointselector-layout .ct {
+    background: none repeat scroll 0 0 #d2dee8 !important;
+}
+
+.airpointselector-layout div {
+    padding: 1px 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
