@@ -15,10 +15,18 @@
  * Version        : V1.01
  * Maintained by  : radishj<423261989@qq.com>
  * Create Date    : 2015-08-10
- * Last Fix Date  : 2015-09-10
+ * Last Fix Date  : 2015-11-25
  */
-;
-(function($) {
+
+;(function (factory) {
+    if (typeof define === "function" && define.amd) {
+        // AMD模式
+        define([ "jquery" ], factory);
+    } else {
+        // 全局模式
+        factory(jQuery);
+    }
+}(function ($) {
     var airPointselector = new function() {
         currentInputText = null;
         this.functionalKeyArray = [9, 20, 13, 16, 17, 18, 91, 92, 93, 45, 36, 33, 34, 35, 37, 39, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 144, 19, 145, 40, 38, 27]; //键盘上功能键键值数组
@@ -303,5 +311,4 @@
     };
 
     $.fn.airPointselector = airPointselector.selector;
-
-})(jQuery)
+}));

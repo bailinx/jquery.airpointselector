@@ -2,7 +2,7 @@
 * 一款基于jquery的航空公司下拉选择插件
 * 实现城市机场下拉选择(支持中文、二字码、拼音匹配)
 * 实现数据源自定义(支持json及ajax方式)
-* 支持常用jquery版本
+* 支持AMD规范及常用jquery版本
 
 ## 使用
 引用airpointselector及jquery到你的项目
